@@ -1,12 +1,12 @@
 // Write your solution in this file!
 var customerName = "bob"
-console.log(window.customerName)
+
 
 function upperCaseCustomerName() {
+  console.log(window.customerName)
   cusomerName = customerName.toUpperCase()
+  console.log(window.customerName)
   return customerName
 }
 
 upperCaseCustomerName()
-
-console.log(window.customerName)
