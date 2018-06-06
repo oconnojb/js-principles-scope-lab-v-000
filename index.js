@@ -6,3 +6,5 @@ function upperCaseCustomerName() {
   cusomerName = toUpperCase(customerName)
   return customerName
 }
+
+console.log(window.customerName)
