@@ -9,4 +9,5 @@ function upperCaseCustomerName() {
 function setBestCustomer() {
   console.log(bestCustomer)
   var bestCustomer = "not bob"
+  console.log(bestCustomer)
 }
