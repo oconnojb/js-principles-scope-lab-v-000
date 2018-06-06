@@ -7,4 +7,6 @@ function upperCaseCustomerName() {
   return customerName
 }
 
+upperCaseCustomerName()
+
 console.log(window.customerName)
