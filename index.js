@@ -6,6 +6,8 @@ function upperCaseCustomerName() {
   customerName = customerName.toUpperCase()
 }
 
+var bestCustomer
+
 function setBestCustomer() {
   console.log(bestCustomer)
   bestCustomer = "not bob"
