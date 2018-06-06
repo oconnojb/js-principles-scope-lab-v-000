@@ -4,9 +4,7 @@ var customerName = "bob"
 
 function upperCaseCustomerName() {
   console.log("before:", window.customerName)
-  cusomerName = customerName.toUpperCase()
+  customerName = customerName.toUpperCase()
   console.log("after:", window.customerName)
   return customerName
 }
-
-upperCaseCustomerName()
