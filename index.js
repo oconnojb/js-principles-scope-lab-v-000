@@ -10,4 +10,5 @@ function setBestCustomer() {
   console.log(bestCustomer)
   var bestCustomer = "not bob"
   console.log(bestCustomer)
+  console.log(window.bestCustomer)
 }
