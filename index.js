@@ -1,5 +1,5 @@
 // Write your solution in this file!
-customerName = "bob"
+let customerName = "bob"
 console.log(window.customerName)
 
 function upperCaseCustomerName() {
